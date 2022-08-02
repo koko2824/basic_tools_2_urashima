@@ -110,7 +110,6 @@ section:first-child {
   height: auto;
 }
 
-
 .section:nth-child(3) > .taro {
   position: absolute;
   bottom: 5rem;
@@ -139,7 +138,6 @@ section:first-child {
   width: 40%;
   height: auto;
 }
-
 
 .section:nth-child(4) > .text span {
   margin-left: 1rem;

@@ -7,31 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>浦島太郎</title>
 </head>
 
 <body>
-    <section id="section2" class="section animated fadeIn delay-5s">
+    <section id="section2" class="section animate__animated animate__fadeIn">
         <!-- <p class="text animated pulse infinite"> -->
-            <p class="text">
+        <p class="text">
             ある日のこと、浜辺を歩いていると一匹の亀が子供達にいじめられているのを見つけた太郎は、亀を助けて海へ逃してやりました。<br />
             数日後、いつものように海で釣りをしていると再び亀がやって来て、助けてくれたお礼に海の中の竜宮城へと連れて行ってくれました。
-            <button class="" onclick="moveSection(2, 3)">
+            <button onclick="moveSection(2, 3)">
                 <i class="fas fa-solid fa-arrow-right"></i>
             </button>
-        </>
+            </>
         <p class="taro">
             <img src="./images/characters/taro_lookdown.png" alt="taro" />
         </p>
-        <p class="turtle animated bounce delay-4s infinite ">
+        <p class="turtle animate__animated animate__bounce animate__infinite">
             <img src="./images/characters/turtle_lookup.png" alt="turtle" />
         </p>
     </section>
-    <section id="section3" class="section animated">
+    <section id="section3" class="section animate__animated">
         <p class="text">
             竜宮城はそれはそれは美しいお城で、そこでお姫様に出会いました。お姫様は亀を助けてくれたお礼として、たくさんの豪華な料理をごちそうしてくれました。<br />
             数日が過ぎ、浦島太郎は村のことやお母さんのことを思い出し村に帰ることを伝えると、お姫様から玉手箱を受け取りました。
@@ -46,7 +44,7 @@
             <img src="./images/characters/hime.png" alt="turtle" />
         </p>
     </section>
-    <section id="section4" class="section animated">
+    <section id="section4" class="section animate__animated">
         <p class="text">
             帰ってきた太郎は村を探してみても見つからず、遠くに見えていた島すら無くなってしまっている事に気が付きました。<br />
             困った太郎はお姫様から受け取った玉手箱を思い出し、開けてはいけない玉手箱を開けてしまいました。
@@ -61,7 +59,7 @@
             <img src="./images/items/tamatebako.png" alt="tamatebako" />
         </p>
     </section>
-    <section id="section5" class="section animated">
+    <section id="section5" class="section animate__animated">
         <p class="text">
             すると中から煙がたくさん噴き出して、太郎はあっという間におじいさんになってしまいました。<br />
             どうやら竜宮城で楽しく過ごしている間に、何百年も経ってしまったようなのです。
@@ -73,7 +71,7 @@
         <p class="tamatebako">
             <img src="./images/items/tamatebako.png" alt="tamatebako" />
         </p>
-        <p class="smoke animated bounceIn">
+        <p id="smoke" class="smoke animate__bounceIn">
             <img src="./images/items/smoke.png" alt="smoke" />
         </p>
     </section>
