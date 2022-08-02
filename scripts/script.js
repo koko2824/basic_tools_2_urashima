@@ -10,8 +10,8 @@ const moveSection = (from, to) => {
 };
 
 const specialMoveSection = () => {
-  const current = document.getElementById("section4");
-  const next = document.getElementById("section5");
+  const current = document.getElementById("section3");
+  const next = document.getElementById("section4");
   const smoke = document.getElementById("smoke");
   current.classList.add("animate__fadeOut");
   current.addEventListener("animationend", () => {
